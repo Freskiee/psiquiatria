@@ -68,43 +68,43 @@ const Services: React.FC = () => {
   };
 
   return (
-    <section id="servicios" className="py-20 gradient-bg">
-      <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+    <section id="servicios" className="py-12 sm:py-16 lg:py-20 gradient-bg">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12 sm:mb-16 lg:mb-20 animate-on-scroll">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6">
               Servicios Especializados
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto px-4">
               Tratamientos personalizados para tu bienestar mental y emocional
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="service-card group bg-white p-6 rounded-xl shadow-lg card-hover animate-on-scroll"
+                className="service-card group bg-white p-4 sm:p-6 rounded-xl shadow-lg card-hover animate-on-scroll"
               >
-                <div className={`w-16 h-16 rounded-xl flex items-center justify-center mb-4 transition-all duration-300 ${getColorClasses(service.color)}`}>
-                  <service.icon size={28} />
+                <div className={`w-12 h-12 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center mb-3 sm:mb-4 transition-all duration-300 ${getColorClasses(service.color)}`}>
+                  <service.icon size={20} className="sm:w-7 sm:h-7" />
                 </div>
-                <h3 className="font-semibold text-gray-800 mb-3 text-lg">
+                <h3 className="font-semibold text-gray-800 mb-2 sm:mb-3 text-sm sm:text-base lg:text-lg">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
                   {service.description}
                 </p>
               </div>
             ))}
           </div>
 
-          <div className="text-center mt-12 animate-on-scroll">
-            <div className="bg-white p-8 rounded-2xl shadow-lg max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+          <div className="text-center mt-8 sm:mt-12 lg:mt-16 animate-on-scroll">
+            <div className="bg-white p-6 sm:p-8 lg:p-10 rounded-2xl shadow-lg max-w-3xl mx-auto">
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">
                 ¿Necesitas una consulta personalizada?
               </h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-sm sm:text-base lg:text-lg text-gray-600 mb-6 sm:mb-8 leading-relaxed">
                 Cada tratamiento es único. Agenda una evaluación inicial para determinar 
                 el mejor enfoque terapéutico para tu situación específica.
               </p>
@@ -112,7 +112,7 @@ const Services: React.FC = () => {
                 href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20consulta%20personalizada"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="whatsapp-btn text-white px-8 py-3 rounded-full font-semibold inline-flex items-center space-x-2"
+                className="whatsapp-btn text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold inline-flex items-center space-x-2 text-sm sm:text-base"
               >
                 <span>Solicitar Evaluación</span>
               </a>
