@@ -6,7 +6,7 @@ const About: React.FC = () => {
     {
       icon: Award,
       title: "Certificación Médica",
-      description: "Especialista certificada por el Consejo Mexicano de Psiquiatría"
+      description: "Especialista certificado por el Consejo Mexicano de Psiquiatría"
     },
     {
       icon: BookOpen,
@@ -34,7 +34,7 @@ const About: React.FC = () => {
               Sobre Mí
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Comprometida con tu bienestar mental y emocional
+              Comprometido con tu bienestar mental y emocional
             </p>
           </div>
 
@@ -42,8 +42,8 @@ const About: React.FC = () => {
             <div className="animate-on-scroll">
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Dra. María González"
+                  src="/images/walfredRuedaFoto.png"
+                  alt="Dr. Walfred Rueda"
                   className="w-full rounded-2xl shadow-2xl"
                 />
                 <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-4 rounded-xl">
@@ -55,14 +55,14 @@ const About: React.FC = () => {
 
             <div className="animate-on-scroll space-y-6">
               <h3 className="text-2xl md:text-3xl font-bold text-gray-800">
-                Dra. María Elena González Hernández
+                Dr. Walfred Rueda
               </h3>
               
               <div className="space-y-4 text-gray-600">
                 <p>
                   Médico Psiquiatra con más de 15 años de experiencia en el diagnóstico y tratamiento 
-                  de trastornos mentales. Graduada con honores de la Universidad Nacional Autónoma de México 
-                  y especializada en psiquiatría por el Instituto Nacional de Psiquiatría.
+                  de trastornos mentales. Graduado con honores de la Universidad Nacional Autónoma de México 
+                  y especializado en psiquiatría por el Instituto Nacional de Psiquiatría.
                 </p>
                 
                 <p>
@@ -74,7 +74,7 @@ const About: React.FC = () => {
                 
                 <p>
                   Especialista en trastornos de ansiedad, depresión, trastornos del sueño y 
-                  atención psiquiátrica en línea. Certificada por el Consejo Mexicano de Psiquiatría 
+                  atención psiquiátrica en línea. Certificado por el Consejo Mexicano de Psiquiatría 
                   y miembro activo de la Asociación Psiquiátrica Mexicana.
                 </p>
               </div>

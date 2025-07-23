@@ -8,9 +8,9 @@ const Footer: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="font-bold text-xl mb-4">Dra. María González</h3>
+              <h3 className="font-bold text-xl mb-4">Dr. Walfred Rueda</h3>
               <p className="text-gray-300 mb-4">
-                Psiquiatra certificada comprometida con tu bienestar mental y emocional.
+                Psiquiatra certificado comprometido con tu bienestar mental y emocional.
               </p>
               <div className="flex items-center text-gray-300">
                 <Heart className="mr-2" size={16} />
@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
               
               <div className="text-center md:text-right">
                 <p className="text-gray-300 text-sm">
-                  © 2025 Dra. María González. Todos los derechos reservados.
+                  © 2025 Dr. Walfred Rueda. Todos los derechos reservados.
                 </p>
                 <p className="text-gray-400 text-xs mt-1">
                   <a href="/privacy" className="hover:text-blue-400 transition-colors mr-4">

@@ -3,7 +3,7 @@ import { MessageCircle, Star } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const whatsappNumber = "525512345678";
-  const whatsappMessage = "Hola, me gustaría agendar una cita con la Dra. María González";
+  const whatsappMessage = "Hola, me gustaría agendar una cita con el Dr. Walfred Rueda";
 
   return (
     <section id="inicio" className="gradient-bg pt-20 pb-16 min-h-screen flex items-center">
@@ -19,11 +19,11 @@ const Hero: React.FC = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
-              Dra. María González
+              Dr. Walfred Rueda
             </h1>
             
             <p className="text-xl md:text-2xl text-blue-600 font-semibold mb-6">
-              Psiquiatra Certificada
+              Psiquiatra Certificado
             </p>
             
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
